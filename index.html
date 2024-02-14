@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+
+
+<html lang="esp">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Playfair+Display:ital,wght@0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+    <title>Encriptador</title>
+</head>
+
+
+<body>
+
+    <img id = "logoAlura"  src="Logo.png">
+    
+    <main>  
+        <div class="container-opciones">
+              <!-- <form id="inputUsuario">  -->
+                <div class="containerTexto">
+                    <h1>
+                     <input type="text"  id="textoUsuario"  placeholder="Ingresa el texto aqui"> 
+
+                    </h1>
+                </div>
+                
+             <!-- </form>   -->
+
+               <div class="botones">
+                    
+                    <p id="instrucciones">
+                       <img class="warning" src="bi_exclamation-circle-fill.png"> 
+                       Solo letras minúsculas y sin acentos
+                    </p>
+                    <div class="containerBotones">
+                        <button onclick="btnEncriptar();" class="Opciones" id="botonEncriptar"> Encriptar </button>
+                        <button onclick="desencriptar();" class="Opciones" id="botonDesencriptar"> Desencriptar </button>
+                    </div>
+              </div>
+        </div>
+       
+        
+           <div class="container-left">
+            
+                 <p id="textoEncriptado">     <!-- Aqui va el texto encriptado -->
+                </p>
+                <img id="guy" src="guy.jpg">
+                <h2>
+                    Ningun Mensaje fue    encontrado
+                </h2>
+                <p id="parrafo2">Ingresa el texto que desees encriptar o desencriptar</p>
+                <button onclick="copiarAlPortapapeles('textoEncriptado');" id="botonCopiar">
+                <p>Copiar</p>
+                </button>
+
+            </div>
+          </main>
+            <footer>
+                <div class="containerFooter">
+                    <p class="footerTexto">
+                        Elaborado por: Eliab Carmona
+                    </p>
+                    <a href="https://www.instagram.com/damellie_11/"> <img class="iglogo"   src="instagram.png" ></a>
+                </div>
+            </footer>
+ <script src="challenge.js"></script>
+</body>
+
+
+</html>

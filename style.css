@@ -1,0 +1,510 @@
+body{
+    background: #F3F5FC;
+    /* width: 1440px;
+   height: 1024px; */
+    /* min-height: 100%; */
+}
+
+#logoAlura{
+    width:  (120px);
+    height:  (48px);
+    margin-top: 40px;
+    margin-left: 40px;
+    /* position: absolute; */
+}
+main{
+    
+}
+.container-opciones{
+    /* margin-right: 500px; */
+    width:680px;
+    height:100%;
+    margin-bottom: 40px;
+    /* margin-top: 845px; */
+    /* margin-left: 240px; */
+     position: relative;
+    right: 500px;
+    left: 240px;
+    top: 0px;
+}
+
+h1{
+    color: #0A3871;
+     /* position: relative; para que no se mueva para abajo la caja de las opciones de encriptar y desencriptar */
+}
+
+input::placeholder {
+    color: #0A3871;
+    font-size: 1.2em;
+    /* font-style: italic; */
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.containerTexto{
+   display: inline-block;
+   min-width: 500px;
+   margin-top: 100px;
+   /* box-sizing: content-box; */
+   /* border: solid; */
+}
+#textoUsuario{
+    /* border: solid;    */
+    width: 700px;
+    /* height: auto; */
+    background: none;
+    /* margin-top: 20px; */
+    font-family: Inter;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #0A3871;
+     border:  #F3F5FC;
+    outline: none; 
+    
+}
+.container-left{
+    background: white;
+    width: 400px;
+    height: 944px;
+     /* margin-top: 40px;
+    margin-left: 1000px; */
+    border-radius: 32px;
+    box-shadow: 0px 24px 32px -8px #00000014;
+    box-shadow: black;
+     position: absolute;
+    top: 40px;
+    right: 40px;
+    /* display: inline-block;  */
+    display: inline-block;
+}
+
+#textoEncriptado{
+    position: relative;
+    top: 2em;
+    width: 100%;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    /* position: relative;
+    top: 10px; */
+    padding: 15px;
+    word-break:break-all;   
+}
+
+
+.Opciones{
+    width: 328px;
+    height: 67px;
+    padding: 24px;
+    border-radius: 24px;
+    cursor: pointer;
+    
+     /* position: absolute;  */
+     /* margin-top: 845px; */
+}
+
+#botonEncriptar{
+    background: #0A3871;
+    color: white;
+    margin-right: 8px;
+}
+
+
+#guy{
+    width: 336px;
+    height: 304px;
+    margin-top: 283px;
+    margin-left: 32px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 16px;
+    font-size: 30px;
+    padding: 10px;
+    
+}
+p{
+    text-align: center;
+    font-size: 20px;
+    color: #5a5a5a;
+    margin: 0 auto;
+ 
+}
+
+.botones{
+    position: absolute;
+  
+}
+
+.warning{
+    position: absolute;
+    left: 0px;
+    top: 572px;
+}
+#instrucciones{
+
+  border: none;
+ font-family: Inter;
+font-size: 12px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0em;
+text-align: left;
+margin: 570px 0px 4px 20px;
+
+ }
+ /* Vector */
+
+
+#botonCopiar{
+     background: rgb(255, 255, 255);
+    display: flex;
+    position: absolute;
+    /* bottom: 400px; */
+    top: 850px;
+    left: 32px;
+    width: 336px;
+    height: 67px;
+    justify-content: center;
+    padding: 24px;
+    border-radius: 24px;
+    border: 1px;
+    cursor: pointer;
+    border: solid;
+    border-color: #0A3871;
+}
+
+footer{
+    background-color: black;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    border: solid;
+}
+.containerFooter{
+/* border: solid;
+border-color: white; */
+}
+
+.footerTexto{
+    /* border: solid;
+    border-color: white; */
+    width: 100%;
+    font-size: 25px;
+     margin: 0 auto;
+     padding: 2em;
+     text-align: center;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    /* display: inline-block; */
+    display: block;
+}
+.iglogo{
+    padding: 10px;
+    width: 1%;
+    height: 1%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width:480px){
+
+    body{
+        /* background: rgb(152, 53, 53); */
+        /* border: solid; */
+    }
+
+    #logoAlura{
+        width: auto;
+        margin: 24px 0px 0px 0px;
+    }
+
+    .container-left, .botones, .container-opciones{
+        width: auto;
+    }
+
+    /* .container-left{
+        width:  (327px);
+        height: (186px);
+        left: 24px;
+        padding: 32px
+    } */
+    
+    .container-opciones{
+        /* left: 50%; */
+        left: 0;
+        /* border: solid; */
+        width: 100%;
+    }
+
+    .containerTexto{
+        width: auto;
+        height: auto;
+        margin: 32px 0px 0px 42px;
+        /* border: solid; */
+    }
+    #textoUsuario{
+        /* border: solid; */
+        width: auto;
+        position: absolute;
+        left: 0px;
+    }
+
+    .container-left{
+        position: static;
+        /* border: solid; */
+        width: 73% ;
+        height: auto;
+        padding: 32px;
+        display: block;
+         margin: 0 auto 10% auto;   
+        box-shadow: 0px 24px 32px -8px #00000014;
+
+
+    }
+
+    #textoEncriptado{
+        position:static;
+        /* border: solid; */
+        word-break:break-all;   
+    }
+    
+    #guy{
+        display: none;
+    }
+
+    #botonCopiar{
+        position: static;
+        margin-top: 40px;
+        width: 100%;
+        height: auto;
+    }
+
+    .warning{
+        top: 286px;
+        left: 20px;
+    }
+    
+    #instrucciones{
+        /* width: 100%; */
+        margin: 250px 0 8px 42px;
+        position: static;
+    }
+
+    .Opciones{
+        margin: 0 0px 0px 0px;
+        width: 100%;
+    }
+    .botones{
+    width: 100%;
+    position: static;
+    margin: 0 0 0 0;
+    }
+
+    #botonEncriptar{
+        margin-bottom: 24px;
+    }
+    
+    h1{
+        text-align: center;
+        
+    }
+    h2{
+        position: relative;
+        top: 20%;
+        margin-bottom: 32px;
+        
+    }
+    
+    footer{
+        width: auto;
+        position: static;
+    }
+    .footerTexto{
+        /* border: solid;
+        border-color: white; */
+        width: auto;
+        font-size: 15px;
+         margin: 0 auto;
+         padding: 2em;
+         text-align: center;
+        /* font-family: 'Playfair Display', serif; */
+        font-family: 'Open Sans', sans-serif;
+        font-family: 'Playfair Display', serif;
+        /* display: inline-block; */
+        display: block;
+    }
+    .iglogo{
+        padding: 10px;
+        width: 3%;
+        height: 3%;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width:480px)  and (max-width: 768px){
+
+body{
+    
+}
+
+h1{
+    text-align: center;
+    
+}
+h2{
+    position: relative;
+    top: 20%;
+    margin-bottom: 32px;
+    
+    
+}
+
+#logoAlura{
+    width: auto;
+    margin: 24px 0px 0px 0px;
+}
+
+.container-left, .botones, .container-opciones{
+    width: auto;
+}
+
+.container-opciones{
+    /* left: 50%; */
+    left: 0;
+    /* border: solid; */
+    width: 100%;
+}
+
+.containerTexto{
+    width: auto;
+    height: auto;
+    margin: 32px 0px 0px 42px;
+    /* border: solid; */
+}
+#textoUsuario{
+    width: auto;
+    position: absolute;
+    left: 40px;
+}
+
+#textoEncriptado{
+    position:static;
+    /* border: solid; */
+    word-break:break-all;   
+}
+
+#guy{
+    display: none;
+}
+#botonCopiar{
+
+    position: static;
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+}
+
+#instrucciones{
+    /* width: 100%; */
+    
+    margin: 250px 0 8px 68px;
+    position: static;
+}
+
+.warning{
+        
+    top: 286px;
+    left: 48px;
+}
+
+.botones{
+    /* border: solid; */
+    width: 100%;
+    position: static;
+    /* display: block; */
+    
+    /* margin: 0 5% 0 5%; */
+    margin: 0 auto;  /* Para ajustar footer
+    /* margin: 0; */
+    }
+
+    /* .containerBotones{
+    border: solid;
+    border-color: blue;
+    margin: 0 auto;
+
+    } */
+
+    .Opciones{
+        /* display: inline-block; */
+        /* margin: 0 10% 0px 10%; */
+      position: static;
+        /* width: 35%; */
+        /* border: solid; */
+    }
+
+#botonEncriptar{
+     /* margin-bottom: 24px; */
+     width: auto;
+     margin-left: 48px;
+     padding-left: 16% ;
+     padding-right: 16%;
+     display: inline-block;
+}
+#botonDesencriptar{
+    width: auto;
+    padding-left: 16% ;
+    padding-right: 16%;
+    margin-right: 40px;
+    margin-left: 24px;
+}
+
+
+.container-left{
+    position: static;
+    /* border: solid; */
+    width: 80% ;
+    height: auto;
+    padding: 32px;
+    display: block;
+     margin: 0 auto 10% auto;   
+    box-shadow: 0px 24px 32px -8px #00000014;
+    margin-bottom: 20%;
+
+}
+footer{
+    width: auto;
+    position: static;
+}
+.footerTexto{
+    /* border: solid;
+    border-color: white; */
+    width: 100%;
+    font-size: 15px;
+     margin: 0 auto;
+     padding: 2em;
+     text-align: center;
+    /* font-family: 'Playfair Display', serif; */
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Playfair Display', serif;
+    /* display: inline-block; */
+    display: block;
+}
+.iglogo{
+    padding: 10px;
+    width: 3%;
+    height: 3%;
+    margin: 0 auto;
+}
+
+
+}
